@@ -22,6 +22,7 @@ const Form = () => {
   const { segment } = useSpeechContext()
 
   const createTransaction = () => {
+    if(Number.isNan(Number(formData.amount)) || !formData.date.includes('-')) return;
     const transaction = { ...formData, amount: Number(formData.amount), id: uuidv4() }
     addTransaction(transaction)
     setFormData(initialState)
