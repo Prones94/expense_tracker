@@ -1,8 +1,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Prones94/expense_tracker?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Prones94/expense_tracker?style=for-the-badge)
 ![Netlify](https://img.shields.io/netlify/e2baca92-22c7-4d08-90f0-8bee4e2268b4?style=for-the-badge)
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![LinkedIn][linkedin-shield][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
