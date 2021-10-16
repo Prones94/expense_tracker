@@ -1,15 +1,11 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Prones94/expense_tracker?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Prones94/expense_tracker?style=for-the-badge)
 ![Netlify](https://img.shields.io/netlify/e2baca92-22c7-4d08-90f0-8bee4e2268b4?style=for-the-badge)
-![LinkedIn][linkedin-shield][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Prones94/expense_tracker">
-    <img src="./src/assets/images/Project.png alt="Main" width="80" height="80">
-  </a>
   <h3 align="center">Expense Tracker</h3>
   <p align="center">
     An easy to use money tracker that comes with a speech to text function!
@@ -58,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Expense Tracker][product-screenshot]](https://expense-tracker-with-speech.netlify.app/)
+![Expense Tracker](https://github.com/Prones94/expense_tracker/blob/master/src/assets/images/Project.png)
 
 This is an easy to use budget tracker that handles both your income and expenses! Not only will this application remember the data you added yesterday, but there is also a talk-to-text feature, which allows you to create new reports without having to click multiple boxes, saving you time and wrist pain. Expenses and income are easily seen by the circle graph with different shades of red or green depending on the category.
 
@@ -93,31 +89,44 @@ This section should list any major frameworks that you built your project using.
 3. Run locally
   ```sh
   npm run start
+  ```
 
-
-<!-- USAGE EXAMPLES -->
+<!-- Usage Examples -->
 ## Usage
+![Main](https://github.com/Prones94/expense_tracker/blob/master/src/assets/images/Main.png)
+- Using the dropdown labels, include
+  - Type (Expense or Income)
+  - Category
+  - Amount
+  - Date
+- Once finished, press the create button
 
+Income.                         |  Expense
+:------------------------------:|:-------------------------------:
+![Income](https://github.com/Prones94/expense_tracker/blob/master/src/assets/images/Income.png)  |  ![Expense](https://github.com/Prones94/expense_tracker/blob/master/src/assets/images/Expense.png)
+- These charts show income and expense categorized by color
 
+Using the Speechly Button
 
+![Speechly](https://github.com/Prones94/expense_tracker/blob/master/src/assets/images/Voice.png)
+- Long press the mic button and speak clearly into your mic
+- Use the example shown above to try out either an expense or income transaction
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Prones94/expense_tracker/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'I added some new feature to this project'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
 
@@ -132,34 +141,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Ian Rones - ronesian10@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Linkedin - https://www.linkedin.com/in/i-am-ian-rones/
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
+Project Link: [https://github.com/Prones94/expense_tracker](https://github.com/Prones94/expense_tracker)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://linkedin.com/in/i-am-ian-rones
-[product-screenshot]: ./src/assets/images/project.png
